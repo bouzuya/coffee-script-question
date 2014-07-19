@@ -1,6 +1,6 @@
 {
   "name": "coffee-script-question",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "bouzuya's CoffeeScript note",
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register --reporter spec --recursive"
