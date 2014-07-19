@@ -1,0 +1,32 @@
+{
+  "name": "coffee-script-question",
+  "version": "0.0.0",
+  "description": "bouzuya's CoffeeScript note",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/coffee-script-question.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/coffee-script-question/issues"
+  },
+  "homepage": "https://github.com/bouzuya/coffee-script-question",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.20.1",
+    "sinon-chai": "^2.5.0",
+    "sinon": "^1.10.3"
+  }
+}
